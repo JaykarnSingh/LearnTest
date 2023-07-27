@@ -1,0 +1,34 @@
+const chats=[
+    {
+        isGroupChat:false,
+        users:[
+           {
+            name:"jay",
+            email:"jay123@gmail.com"
+           },
+           {
+            name:"johnson",
+            email:"johnson123@gmail.com"
+           }
+        ],
+        _id:"47s8gf39h4790sf439g2348j",
+        chatName:"JayChat"
+    },
+    {
+        isGroupChat:false,
+        users:[
+           {
+            name:"karan",
+            email:"karan123@gmail.com"
+           },
+           {
+            name:"ritik",
+            email:"jritik123@gmail.com"
+           }
+        ],
+        _id:"47s8gfh4790skjd679g2218j",
+        chatName:"KaranChat"
+    }
+]
+
+module.exports={chats};
